@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+html {
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+  }
+
+/*NAV VAR*//*NAV VAR*//*NAV VAR*//*NAV VAR*//*NAV VAR*/
+
+.navbar a {
+    font-size: larger;
+}
+
+header {
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-width: 300px;
+    cursor: pointer;
+}
+
+/*GENERAL*//*GENERAL*//*GENERAL*/
+body {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+main {
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+/*GENERAL*//*GENERAL*//*GENERAL*/
+
+/*INDEX*//*INDEX*//*INDEX*//*INDEX*//*INDEX*/
+h1 {
+    font-size: 70px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+section div p {
+    font-family: 'Roboto Mono', monospace;
+    margin: auto;
+    width: 50%;
+}
+
+.grid-2 {
+    margin-top: 50px;
+    width: 70%;
+    margin: auto;
+    display: grid;
+    text-align: center;
+}
+
+.grid-template-areas-2 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas: 
+    "unoa unob"
+    "unoc unod"
+    "unoe unoe";
+}
+
+#qs {
+    font-family: 'Bebas Neue', cursive;
+    font-size: large;
+    padding: 30px;
+    grid-area: unoa;
+}
+
+#qh {
+    font-family: 'Bebas Neue', cursive;
+    font-size: large;
+    padding: 30px;
+    grid-area: unob;
+}
+
+#ch {
+    font-family: 'Bebas Neue', cursive;
+    font-size: large;
+    padding: 30px;
+    grid-area: unoc;
+}
+
+#np {
+    font-family: 'Bebas Neue', cursive;
+    font-size: large;
+    padding: 30px;
+    grid-area: unod;
+}
+
+#soluciones {
+    font-family: 'Bebas Neue', cursive;
+    font-size: large;
+    padding: 30px;
+    grid-area: unoe;
+    
+}
+
+.solimg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+}
+
+.imga {
+    
+    width: 200px;
+    height: 400px;
+}
+
+.img {
+    border-radius: 30px;
+    width: 350px;
+    height: 220px;
+}
+
+#soluciones img {
+    padding-left: 10px;
+}
+
+#vermasbutton {
+    padding: 9px 25px;
+    border-radius: 10px 25px;
+    border-style: none;
+    margin-top: 70px;
+    background-color: lightskyblue;
+}
+/*INDEX*//*INDEX*//*INDEX*//*INDEX*//*INDEX*/
+
+/*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*/
+.fb {
+    max-width: 35px;
+    max-height: 35px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.tw {
+    max-width: 35px;
+    max-height: 35px;
+    margin-right: 10px;
+}
+
+.insta {
+    max-width: 35px;
+    max-height: 35px;
+    margin-right: 10px;
+}
+
+footer {
+    position:absolute;
+    left:0;
+    bottom:0;
+    height: auto;
+    width:100%;
+    background-color: black;
+    color: white;
+    margin-top: 80px;
+    font-size: medium;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.redes {
+    margin-top: 10px;
+}
+
+.midfootertext {
+    font-size: small;
+}
+/*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*/
+
+/*NOSOTROS*//*NOSOTROS*//*NOSOTROS*/
+#nosotrosmain {
+    padding: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.sobrenosotros {
+    width: 200px;
+}
+
+iframe {
+    max-width: 70%;
+}
+
+.mapa {
+    margin-left: 50px;
+}
+/*NOSOTROS*//*NOSOTROS*//*NOSOTROS*/
+
+/*CONTACTO*//*CONTACTO*//*CONTACTO*//*CONTACTO*/
+.cuerpocontacto div p {
+    font-size: x-large;
+}
+
+.cuerpocontacto {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: 
+    "grid0 grid0 grid0"
+    "grid2 grid1 grid3"
+    "grid4 grid4 grid4"
+    "grid5 grid5 grid5";
+}
+
+.cuerpocontacto h2 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.grid0 {
+    text-decoration: underline;
+    grid-area: grid0;
+}
+
+.grid1 {
+    margin: 20px;
+    grid-area: grid1;
+}
+
+.grid2 {
+    margin: 20px;
+    background-color: rgb(162, 18, 47, 0.2);
+    grid-area: grid2;
+}
+
+.grid3 {
+    margin: 20px;
+    background-color: rgb(162, 18, 47, 0.2);
+    grid-area: grid3;
+}
+
+.grid4 {
+    margin: 20px;
+    background-color: rgb(162, 18, 47, 0.2);
+    grid-area: grid4;
+}
+
+.grid5 {
+    margin: auto;
+    background-color: rgb(162, 18, 47, 0.2);
+    grid-area: grid5;
+    display: grid;
+}
+
+.formulario {
+    padding: 20px;
+    display: grid;
+    margin: auto;
+}
+/*CONTACTO*//*CONTACTO*//*CONTACTO*//*CONTACTO*/
+
+/*PRODUCTOS*//*PRODUCTOS*//*PRODUCTOS*//*PRODUCTOS*/
+
+#mainprod {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.prodimg {
+    max-width: 350px;
+    max-height: 350px;
+}
+.contenidoproductos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: 
+    "p0 p0 p0"
+    "p1 p2 p3"
+    "p4 p5 p6"
+    "p7 p8 p9";
+}
+
+.p0{
+    margin: 20px;
+    grid-area: p0;
+}
+
+.p0 h2 {
+    font-family: 'Bebas Neue';
+}
+
+.p0 p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.p1{
+    margin: 20px;
+    grid-area: p1;
+}
+
+.p2{
+    margin: 20px;
+    grid-area: p2;
+}
+
+.p3{
+    margin: 20px;
+    grid-area: p3;
+}
+
+.p4{
+    margin: 20px;
+    grid-area: p4;
+}
+
+.p5{
+    margin: 20px;
+    grid-area: p5;
+}
+
+.p6{
+    margin: 20px;
+    grid-area: p6;
+}
+
+.p7{
+    margin: 20px;
+    grid-area: p7;
+}
+
+.p8{
+    margin: 20px;
+    grid-area: p8;
+}
+
+.p9{
+    margin: 20px;
+    grid-area: p9;
+}
+/*PRODUCTOS*//*PRODUCTOS*//*PRODUCTOS*//*PRODUCTOS*/
