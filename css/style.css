@@ -2,14 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
-html {
+/*html {
     width: 100%;
     min-height: 100%;
     position: relative;
   }
 
 /*NAV VAR*//*NAV VAR*//*NAV VAR*//*NAV VAR*//*NAV VAR*/
-
+/*
 .navbar a {
     font-size: larger;
 }
@@ -22,13 +22,13 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-
+*/
 .logo {
     max-width: 300px;
     cursor: pointer;
 }
 
-/*GENERAL*//*GENERAL*//*GENERAL*/
+/*GENERAL*//*GENERAL*//*GENERAL*//*
 body {
     text-align: center;
     width: 100%;
@@ -39,7 +39,7 @@ body {
 main {
     margin-top: 30px;
     margin-bottom: 100px;
-}
+}*/
 /*GENERAL*//*GENERAL*//*GENERAL*/
 
 /*INDEX*//*INDEX*//*INDEX*//*INDEX*//*INDEX*/
