@@ -1,111 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 
-/*html {
+html {
     width: 100%;
     min-height: 100%;
     position: relative;
   }
 
 /*NAV VAR*//*NAV VAR*//*NAV VAR*//*NAV VAR*//*NAV VAR*/
-/*
-.navbar a {
-    font-size: larger;
-}
 
 header {
     background-color: white;
-    width: 70%;
+    width: 80%;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-*/
+
 .logo {
     max-width: 300px;
     cursor: pointer;
 }
 
-/*GENERAL*//*GENERAL*//*GENERAL*//*
+/*GENERAL*//*GENERAL*//*GENERAL*/
 body {
-    text-align: center;
-    width: 100%;
+    width: 70%;
     margin: auto;
     margin-bottom: 40px;
+    text-align: center;
 }
 
-main {
-    margin-top: 30px;
-    margin-bottom: 100px;
-}*/
 /*GENERAL*//*GENERAL*//*GENERAL*/
 
 /*INDEX*//*INDEX*//*INDEX*//*INDEX*//*INDEX*/
 h1 {
-    font-size: 70px;
-    font-family: 'Bebas Neue', cursive;
-    text-align: center;
+    margin: 50px;
+}
+
+h2{
+    margin: 50px;
+}
+.maindex {
+    padding: 50px;
 }
 
 section div p {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto', sans-serif;
     margin: auto;
-    width: 50%;
-}
-
-.grid-2 {
-    margin-top: 50px;
-    width: 70%;
-    margin: auto;
-    display: grid;
-    text-align: center;
-}
-
-.grid-template-areas-2 {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto auto auto auto auto;
-    grid-template-areas: 
-    "unoa unob"
-    "unoc unod"
-    "unoe unoe";
-}
-
-#qs {
-    font-family: 'Bebas Neue', cursive;
-    font-size: large;
-    padding: 30px;
-    grid-area: unoa;
-}
-
-#qh {
-    font-family: 'Bebas Neue', cursive;
-    font-size: large;
-    padding: 30px;
-    grid-area: unob;
-}
-
-#ch {
-    font-family: 'Bebas Neue', cursive;
-    font-size: large;
-    padding: 30px;
-    grid-area: unoc;
-}
-
-#np {
-    font-family: 'Bebas Neue', cursive;
-    font-size: large;
-    padding: 30px;
-    grid-area: unod;
 }
 
 #soluciones {
-    font-family: 'Bebas Neue', cursive;
-    font-size: large;
-    padding: 30px;
-    grid-area: unoe;
-    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px; 
 }
 
 .solimg {
@@ -115,19 +65,13 @@ section div p {
 }
 
 .imga {
-    
     width: 200px;
-    height: 400px;
+    height: 350px;
 }
 
 .img {
-    border-radius: 30px;
-    width: 350px;
-    height: 220px;
-}
-
-#soluciones img {
-    padding-left: 10px;
+    align-items: center;
+    max-height: 350px;
 }
 
 #vermasbutton {
@@ -269,10 +213,12 @@ iframe {
 /*PRODUCTOS*//*PRODUCTOS*//*PRODUCTOS*//*PRODUCTOS*/
 
 #mainprod {
-    display: flex;
+    display: grid;
     text-align: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto auto;
+    margin: 30px;
+    padding: 50px;
 }
 
 .prodimg {
