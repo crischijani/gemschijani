@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
 /*GENERAL*//*GENERAL*//*GENERAL*/
 html {
     width: 80%;
@@ -21,7 +24,6 @@ main {
 body {
     width: 100%;
     margin: auto;
-    text-align: center;
 }
 /*GENERAL*//*GENERAL*//*GENERAL*/
 
@@ -41,7 +43,7 @@ header {
 }
 
 .logo {
-    margin-left: 10px;
+    margin-left: 20px;
     max-width: 300px;
     cursor: pointer;
 }
@@ -81,6 +83,9 @@ h1 {
     width: auto;
     height: 320px;
 }
+.buttonmain {
+    text-align: center;
+}
 
 #vermasbutton {
     box-shadow: 3px 3px 6px #999;
@@ -89,6 +94,10 @@ h1 {
     border-style: none;
     margin-top: 70px;
     background-color: lightskyblue;
+}
+
+.solindex {
+    text-align: center;
 }
 /*INDEX*//*INDEX*//*INDEX*//*INDEX*//*INDEX*/
 
@@ -146,47 +155,59 @@ footer {
 #nosotrosmain {
     padding: 100px;
     display: flex;
+    flex-flow: row wrap;
     text-align: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .sobrenosotros {
     width: 200px;
 }
 
-iframe {
-    max-width: 70%;
+.mapaindex {
+    padding-top: 30px;
+    text-align: center;
+    margin: auto;
+}
+
+.mapaindex h3 {
+    margin: 30px;
+}
+
+.mapa1 {
+    width: 100%;
 }
 
 .mapa {
-    margin-left: 50px;
+    width: 60%;
 }
 /*NOSOTROS*//*NOSOTROS*//*NOSOTROS*/
 
 /*CONTACTO*//*CONTACTO*//*CONTACTO*//*CONTACTO*/
-.cuerpocontacto div p {
-    font-size: x-large;
+.contacttittle {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.contactsecundarytittle {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    margin: auto;
+    background-color: black;
+    color: tan;
+    padding: 10px;
+    width: 400px;
 }
 
 .cuerpocontacto {
     display: grid;
-    text-align: center;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto auto auto;
     grid-template-areas: 
-    "grid0 grid0 grid0"
-    "grid2 grid1 grid3"
-    "grid4 grid4 grid4"
-    "grid5 grid5 grid5";
-}
-
-.cuerpocontacto h2 {
-    font-family: 'Roboto Mono', monospace;
-}
-
-.grid0 {
-    text-decoration: underline;
-    grid-area: grid0;
+    "grid1 grid1 "
+    "grid2 grid3";
 }
 
 .grid1 {
@@ -195,36 +216,61 @@ iframe {
 }
 
 .grid2 {
+    padding: 15px;
     margin: 20px;
-    background-color: rgb(162, 18, 47, 0.2);
     grid-area: grid2;
 }
 
 .grid3 {
     margin: 20px;
-    background-color: rgb(162, 18, 47, 0.2);
     grid-area: grid3;
 }
 
-.grid4 {
-    margin: 20px;
-    background-color: rgb(162, 18, 47, 0.2);
-    grid-area: grid4;
-}
-
-.grid5 {
-    margin: auto;
-    background-color: rgb(162, 18, 47, 0.2);
-    grid-area: grid5;
-    display: grid;
+.inputarea {
+    background-color: lightgrey;
+    border: none;
+    padding: 15px;
 }
 
 .formulario {
     padding: 20px;
-    display: grid;
     margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: 
+    "gr1 gr1 "
+    "gr2 gr3"
+    "gr4 gr4"
+    "gr5 gr5";
 }
 
+.gr1 {
+    margin: 10px;
+    grid-area: gr1;
+}
+
+.gr2 {
+    margin: 10px;
+    grid-area: gr2;
+}
+.gr3 {
+    margin: 10px;
+    grid-area: gr3;
+}
+.gr4 {
+    margin: 10px;
+    grid-area: gr4;
+}
+
+.gr5 {
+    margin: 10px;
+    grid-area: gr5;
+}
+#comentario {
+    background-color: lightgrey;
+    border: none;
+}
 .imgcontact {
     max-width: 300px;
     max-height: 250px;
