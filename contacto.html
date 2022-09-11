@@ -13,48 +13,49 @@
     <body>
         <header>
             <a href="index.html"><img src="src/logo.png" alt="logo Gems" class="logo"></a>
-            <nav class="navbar navbar-expand-lg bg-violet">
-                <div class="container-fluid">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" href="nosotros.html">Nosotros</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" href="contacto.html">Contacto</a>
-                      </li>
-                    </ul>
+            <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                  </ul>
                 </div>
+              </div>
             </nav>
-        </header>
-        <main>
-            <div class="cuerpocontacto">
-                <div class="grid1">
-                    <h2 class="contacttittle">CONTACTA CON NOSOTROS</h2>
-                    <h3 class="contactsecundarytittle">Queremos escucharte</h3>
-                </div>
-                <div class="grid2">
+          </header>
+        <main >
+            <div class="tittlescontact">
+                <h2 class="contacttittle">CONTACTA CON NOSOTROS</h2>
+                <h3 class="contactsecundarytittle">Queremos escucharte</h3>
+            </div>
+            <div class="contactconteiner">
+                <div class="infocontacto">
                     <p>Si queres informacion sobre cualquiera de nuestros productos, rellená nuestro formulario y nos pondremos en contacto con vos lo antes posible.</p>
                     <p>Muchas gracias.</p>
                     <p><b>Sede central y oficina:</b> Presidente Peron 3858, San Justo, Buenos Aires.</p>
                     <p><b>Telefono:</b> 011 4651-9669</p>
                     <p><b>Mail:</b> gemsint@gems-int.com</p>
                 </div>
-                <div class="grid3">
+                <div>
                     <form class="formulario" action="">
                         <input class="inputarea gr1" type="text" id="nombre" placeholder="Nombre y apellido">
                         <input class="inputarea gr2" type="email" id="email" placeholder="Email">
                         <input class="inputarea gr3" type="tel" id="tel" placeholder="Telefono">
-                        <textarea class="gr4" name="" id="comentario" cols="50" rows="5" placeholder="Mensaje"></textarea>
+                        <textarea class="inputarea gr4" name="" id="comentario" cols="50" rows="5" placeholder="Mensaje"></textarea>
                         <div class="gr5"><input type="submit" value="Enviar"></div>
                     </form>
                 </div>
@@ -69,6 +70,7 @@
             <p class="midfootertext">Pagina creada por Cristian Chijani sin fines de lucro ni valor comercial.</p>
             <p class="midfootertext">Copyright GEMS INTERNATIONAL 2022</p>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
         <script src="js/wow.min.js"></script>
         <script>
             new WOW().init();
