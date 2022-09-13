@@ -44,6 +44,10 @@ header {
     background-color: aliceblue;
 }
 
+.container-fluid {
+    float: inline-start;
+}
+
 .nav-link {
     color: tan;
 }
@@ -53,7 +57,7 @@ header {
 }
 
 .logo {
-    margin-left: 20px;
+    margin-left: 10px;
     max-width: 300px;
     cursor: pointer;
 }
@@ -106,12 +110,13 @@ h1 {
 .buttonmain {
     text-align: center;
     padding-bottom: 15px;
+    width: 100%;
 }
 
 .btn {
     box-shadow: 3px 3px 6px #999;
-    background-color: black;
-    color: tan;
+    background-color: blue;
+    color: white;
     border: none;
 }
 
@@ -206,7 +211,7 @@ footer {
     justify-content: space-around;
     flex-flow: row wrap;
     align-items: center;
-  }
+}
 
 .redes {
     margin-top: 10px;
