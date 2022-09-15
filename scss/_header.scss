@@ -1,0 +1,32 @@
+header {
+    padding: 0%;
+    box-shadow: $sombracaja;
+    font-size: larger;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.navbar-toggler {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: aliceblue;
+    background-color: aliceblue;
+}
+
+.nav-link {
+    color: tan;
+}
+
+.nav-link:hover{
+    color:white !important;
+}
+
+.logo {
+    margin-left: 10px;
+    max-width: 300px;
+    cursor: pointer;
+}

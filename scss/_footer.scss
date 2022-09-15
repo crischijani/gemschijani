@@ -1,0 +1,47 @@
+.fb {
+    max-width: 35px;
+    max-height: 35px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.tw {
+    max-width: 35px;
+    max-height: 35px;
+    margin-right: 10px;
+}
+
+.insta {
+    max-width: 35px;
+    max-height: 35px;
+    margin-right: 10px;
+}
+
+footer {
+    margin-top: 150px;
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color:black;
+    color: tan;
+    font-size: medium;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.redes {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.midfootertext {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    font-size: small;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

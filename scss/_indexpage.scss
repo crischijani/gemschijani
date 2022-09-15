@@ -1,0 +1,112 @@
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.gemsdescription {
+    width: 95%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 40px;
+    box-shadow: $sombracaja;
+}
+
+.carousel {
+    box-shadow: $sombracaja;
+}
+
+h1 {
+    margin: 50px;
+}
+
+.card1 {
+    height: 478px;
+}
+
+.cardsoluciones {
+    margin: 20px;
+}
+
+#soluciones {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    box-shadow: $sombracaja;
+    padding: 40px;
+    width: 95%;
+    margin: auto;
+}
+
+.img {
+    width: auto;
+    height: 320px;
+}
+.buttonmain {
+    text-align: center;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+.btn {
+    box-shadow: $sombracaja;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.card-body {
+    text-align: center;
+}
+
+#vermasbutton {
+    padding: 9px 25px;
+    border-radius: 10px 25px;
+    border-style: none;
+    margin-top: 20px;
+}
+
+.tittlediv {
+    width: 100%;
+}
+
+.tittlemapa {
+    box-shadow: $sombracaja;
+    margin: auto;
+    border-radius: 15px;
+    background-color: black;
+    color: tan;
+    font-weight: lighter;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 9px 25px;
+    max-width: max-content;
+}
+
+.solindex {
+    box-shadow: $sombracaja;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: black;
+    color: tan;
+    font-weight: lighter;
+    padding: 10px;
+    max-width: max-content;
+}
+
+.mapaindex {
+    box-shadow: $sombracaja;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 25px;
+    width: 95%;
+}
+
+.mapa1 {
+    width: 100%;
+    height: 480px;
+}
