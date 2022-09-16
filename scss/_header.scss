@@ -1,20 +1,18 @@
 header {
-    padding: 0%;
     box-shadow: $sombracaja;
+    background-color: black;
     font-size: larger;
-    width: 100%;
-    margin: auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    background-color: black;
+    flex-flow: row wrap;
 }
 
 .navbar-toggler {
-    margin-top: 15px;
+    color: tan;
+    background-color: white;
+    margin-right: 10px;
+    margin-left: 10px;
     margin-bottom: 10px;
-    color: aliceblue;
-    background-color: aliceblue;
 }
 
 .nav-link {
@@ -26,7 +24,18 @@ header {
 }
 
 .logo {
-    margin-left: 10px;
+    margin: 10px;
+   
     max-width: 300px;
-    cursor: pointer;
+    margin-left: 10px;
+}
+
+.logoposition {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav {
+    margin-left: 10px;
+    margin-right: 10px;
 }
