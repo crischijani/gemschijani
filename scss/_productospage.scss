@@ -1,9 +1,19 @@
 #mainprod {
     box-shadow: $sombracaja;
-    width: 80%;
-    padding: 50px;
+    width: 90%;
+    margin-top: 10px;
+}
+
+.card2 {
+    padding: 10px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.productcards {
+    margin: 30px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    margin-top: 50px;
+    align-content: center;
 }

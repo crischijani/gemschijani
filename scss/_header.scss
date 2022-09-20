@@ -1,4 +1,5 @@
 header {
+    width: auto;
     box-shadow: $sombracaja;
     background-color: black;
     font-size: larger;
@@ -10,9 +11,11 @@ header {
 .navbar-toggler {
     color: tan;
     background-color: white;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
     margin-bottom: 10px;
+    float: left;
 }
 
 .nav-link {
@@ -25,17 +28,16 @@ header {
 
 .logo {
     margin: 10px;
-   
     max-width: 300px;
-    margin-left: 10px;
 }
 
 .logoposition {
     display: flex;
     align-items: center;
+    margin-left: 30px;
 }
 
 .navbar-nav {
-    margin-left: 10px;
+    margin-left: 30px;
     margin-right: 10px;
 }

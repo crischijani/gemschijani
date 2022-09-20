@@ -4,7 +4,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 header {
-  box-shadow: 3px 3px 6px #999;
+  width: auto;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
   background-color: black;
   font-size: larger;
   display: flex;
@@ -15,9 +16,11 @@ header {
 .navbar-toggler {
   color: tan;
   background-color: white;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 30px;
+  margin-left: 30px;
   margin-bottom: 10px;
+  float: left;
 }
 
 .nav-link {
@@ -31,25 +34,24 @@ header {
 .logo {
   margin: 10px;
   max-width: 300px;
-  margin-left: 10px;
 }
 
 .logoposition {
   display: flex;
   align-items: center;
+  margin-left: 30px;
 }
 
 .navbar-nav {
-  margin-left: 10px;
+  margin-left: 30px;
   margin-right: 10px;
 }
 
 html {
-  width: 80%;
   min-height: 100%;
   position: relative;
   margin: auto;
-  box-shadow: 3px 3px 6px #999;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 main {
@@ -112,16 +114,14 @@ footer {
 }
 
 .gemsdescription {
-  width: 95%;
   margin: auto;
   margin-top: 30px;
   margin-bottom: 30px;
   padding: 40px;
-  box-shadow: 3px 3px 6px #999;
 }
 
 .carousel {
-  box-shadow: 3px 3px 6px #999;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 h1 {
@@ -130,9 +130,11 @@ h1 {
 
 .card1 {
   height: 478px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 .cardsoluciones {
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
   margin: 20px;
 }
 
@@ -140,7 +142,6 @@ h1 {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  box-shadow: 3px 3px 6px #999;
   padding: 40px;
   width: 95%;
   margin: auto;
@@ -158,7 +159,7 @@ h1 {
 }
 
 .btn {
-  box-shadow: 3px 3px 6px #999;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
   background-color: blue;
   color: white;
   border: none;
@@ -180,7 +181,7 @@ h1 {
 }
 
 .tittlemapa {
-  box-shadow: 3px 3px 6px #999;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
   margin: auto;
   border-radius: 15px;
   background-color: black;
@@ -195,7 +196,7 @@ h1 {
 }
 
 .solindex {
-  box-shadow: 3px 3px 6px #999;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
   border-radius: 15px;
   margin: auto;
   margin-top: 10px;
@@ -211,7 +212,6 @@ h1 {
 }
 
 .mapaindex {
-  box-shadow: 3px 3px 6px #999;
   align-content: center;
   text-align: center;
   margin: auto;
@@ -223,22 +223,33 @@ h1 {
 .mapa1 {
   width: 100%;
   height: 480px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 #mainprod {
-  box-shadow: 3px 3px 6px #999;
-  width: 80%;
-  padding: 50px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+  width: 90%;
+  margin-top: 10px;
+}
+
+.card2 {
+  padding: 10px;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.productcards {
+  margin: 30px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  margin-top: 50px;
+  align-content: center;
 }
 
 .sobrenosotros {
   width: 80%;
   margin: auto;
-  box-shadow: 3px 3px 6px #999;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
   padding: 30px;
 }
 
@@ -253,7 +264,7 @@ h1 {
   padding-bottom: 15px;
   margin: auto;
   width: 80%;
-  box-shadow: 3px 3px 6px #999;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
   margin-top: 30px;
   margin-bottom: 10px;
 }
@@ -276,12 +287,12 @@ h1 {
   max-width: -webkit-max-content;
   max-width: -moz-max-content;
   max-width: max-content;
-  box-shadow: 3px 3px 6px #999;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
   border-radius: 15px;
 }
 
 .contactconteiner {
-  box-shadow: 3px 3px 6px #999;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
   padding-top: 20px;
   width: 80%;
   display: flex;
