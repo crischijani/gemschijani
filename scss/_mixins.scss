@@ -1,0 +1,13 @@
+@mixin blackbuttons {
+    box-shadow: $sombracaja;
+    margin: auto;
+    border-radius: 15px;
+    background-color: black;
+    color: tan;
+    font-weight: lighter;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    max-width: max-content;
+    padding: 10px;
+}

@@ -1,5 +1,4 @@
 .sobrenosotros {
-    width: 80%;
     margin: auto;
     box-shadow: $sombracaja;
     padding: 30px;
@@ -8,5 +7,10 @@
 .pcenter {
     font-weight: bold;
     color: blue;
+    text-align: center;
+}
+
+#nosotrosmain {
+    width: 95%;
     text-align: center;
 }

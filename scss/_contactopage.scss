@@ -1,9 +1,15 @@
+.maincontacto {
+    margin-top: 30px;
+    width: 95%;
+    box-shadow: $sombracaja;
+    margin-bottom: 200px;
+}
+
 .tittlescontact {
     padding-top: 15px;
     padding-bottom: 15px;
     margin: auto;
     width: 80%;
-    box-shadow: $sombracaja;
     margin-top: 30px;
     margin-bottom: 10px;
 }
@@ -16,20 +22,13 @@
 }
 
 .contactsecundarytittle {
-    text-align: center;
+    @include blackbuttons;
+    border-radius: map-get($map: $border, $key: 'cuadrado');
     font-family: 'Quicksand', sans-serif;
     font-size: 25px;
-    margin: auto;
-    background-color: black;
-    color: tan;
-    padding: 15px;
-    max-width: max-content;
-    box-shadow: $sombracaja;
-    border-radius: 15px;
 }
 
 .contactconteiner {
-    box-shadow: $sombracaja;
     padding-top: 20px;
     width: 80%;
     display: flex;
@@ -39,7 +38,8 @@
 }
 
 .infocontacto {
-    width: 50%;
+    text-align: center;
+    width: 80%;
 }
 
 .formulario {
@@ -82,6 +82,10 @@
 .gr5 {
     margin: 10px;
     grid-area: gr5;
+}    
+
+.sendbutton {
+    border-radius: map-get($map: $border, $key: 'redondo');
 }
 
 #comentario {

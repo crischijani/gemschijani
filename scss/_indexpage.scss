@@ -2,7 +2,12 @@
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+h1 {
+    text-align: center;
+}
+
 .gemsdescription {
+    width: 80%;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -15,10 +20,28 @@
 
 h1 {
     margin: 50px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.panimg {
+    width: 100px;
+    height: 90px;
+}
+
+.pandosimg {
+    @extend .panimg;
+}
+
+.divh1 {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-top: 30px;
 }
 
 .card1 {
-    height: 478px;
+    height: max-content;
     box-shadow: $sombracaja;
 }
 
@@ -58,8 +81,8 @@ h1 {
 }
 
 #vermasbutton {
+    border-radius: map-get($map: $border, $key: 'romboide');
     padding: 9px 25px;
-    border-radius: 10px 25px;
     border-style: none;
     margin-top: 20px;
 }
@@ -68,36 +91,15 @@ h1 {
     width: 100%;
 }
 
-.tittlemapa {
-    box-shadow: $sombracaja;
-    margin: auto;
-    border-radius: 15px;
-    background-color: black;
-    color: tan;
-    font-weight: lighter;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    padding: 9px 25px;
-    max-width: max-content;
+.btn-tittles {
+    @include blackbuttons;
 }
 
-.solindex {
-    box-shadow: $sombracaja;
-    border-radius: 15px;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    text-align: center;
-    background-color: black;
-    color: tan;
-    font-weight: lighter;
-    padding: 10px;
-    max-width: max-content;
+.tittlemapa {
+    @include blackbuttons;
 }
 
 .mapaindex {
-    align-content: center;
-    text-align: center;
     margin: auto;
     margin-top: 50px;
     padding: 25px;
