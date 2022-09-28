@@ -23,7 +23,7 @@
 
 .contactsecundarytittle {
     @include blackbuttons;
-    border-radius: map-get($map: $border, $key: 'cuadrado');
+    border-radius: map-get($map: $border, $key: 'recto');
     font-family: 'Quicksand', sans-serif;
     font-size: 25px;
 }
