@@ -112,6 +112,8 @@ footer {
 
 h1 {
   text-align: center;
+  margin: 50px;
+  font-family: "Quicksand", sans-serif;
 }
 
 .gemsdescription {
@@ -122,11 +124,6 @@ h1 {
 
 .carousel {
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
-}
-
-h1 {
-  margin: 50px;
-  font-family: "Quicksand", sans-serif;
 }
 
 .divh1 {
@@ -244,7 +241,6 @@ h1 {
   padding: 10px;
   border-radius: 5px;
 }
-
 .btnosotros:hover, .btcom:hover {
   background-color: blue;
   color: white;
@@ -293,9 +289,9 @@ h1 {
 
 .wetittle {
   text-align: center;
-  text-decoration: underline;
   margin-bottom: 30px;
   font-size: 50px;
+  font-family: "Quicksand", sans-serif;
 }
 
 .maincontacto {
@@ -400,4 +396,30 @@ h1 {
 #comentario {
   background-color: lightgrey;
   border: none;
+}
+
+.errorpage {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  text-align: center;
+}
+.errorpage div {
+  font-size: 350%;
+}
+
+.errorimg {
+  width: 100%;
+}
+
+.galeria {
+  text-align: center;
+}
+.galeria img {
+  margin: 20px;
+  width: 90%;
+}
+.galeria div {
+  font-size: 300%;
+  font-family: "Quicksand", sans-serif;
 }/*# sourceMappingURL=main.css.map */

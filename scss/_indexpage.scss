@@ -4,6 +4,8 @@
 
 h1 {
     text-align: center;
+    margin: 50px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .gemsdescription {
@@ -14,11 +16,6 @@ h1 {
 
 .carousel {
     box-shadow: $sombracaja;
-}
-
-h1 {
-    margin: 50px;
-    font-family: 'Quicksand', sans-serif;
 }
 
 .divh1 {
@@ -99,11 +96,10 @@ h1 {
 .btnosotros {
     @include blackbuttons;
     border-radius: map-get($map: $border, $key: 'recto');
-}
-
-.btnosotros:hover {
+    &:hover {
     background-color: blue;
     color: white;
+    }
 }
 
 .btcom {

@@ -1,0 +1,13 @@
+.errorpage {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    text-align: center;
+    div{
+        font-size: 350%;
+    }
+}
+
+.errorimg {
+    width: 100%;
+}
